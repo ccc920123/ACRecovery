@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/common_progress_dialog_progressbartwo" android:drawable="@mipmap/common_progress_dialog_progressbar2" />
+    <item android:id="@+id/ommon_progress_dialog_progressbarthree" android:drawable="@mipmap/common_progress_dialog_progressbar3" />
+</layer-list>

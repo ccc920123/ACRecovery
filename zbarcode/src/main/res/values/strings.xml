@@ -1,0 +1,8 @@
+<resources>
+    <string name="qr_name">二维码</string>
+    <string name="i_know">我知道了</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="permission">抱歉,你的%1$s权限没有打开,无法正常服务</string>
+    <string name="loading">加载中…</string>
+</resources>

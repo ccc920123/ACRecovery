@@ -1,0 +1,2 @@
+include ':app', ':zbarcode'
+rootProject.name='ACRecovery'

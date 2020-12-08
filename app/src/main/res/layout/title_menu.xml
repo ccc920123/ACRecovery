@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/background_login_div_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@mipmap/police" />
+    <TextView android:textSize="@dimen/title" android:textColor="@color/clr_sysTitle" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+</LinearLayout>

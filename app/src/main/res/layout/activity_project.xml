@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/background_login" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/include" layout="@layout/title_menu" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/setting_icon" />
+        <TextView android:textSize="@dimen/sysTitle" android:textColor="@color/clr_sysTitle" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="授权中心" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/background_login_div_bg" android:padding="15dp" android:paddingTop="45dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="15dp" android:stretchColumns="1">
+        <TextView android:textSize="@dimen/textSize" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="授权码" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_shape"
+            >
+            <EditText android:textSize="@dimen/textSize" android:textColor="@color/black" android:id="@+id/sqmEd"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+            <Button android:id="@+id/scan" android:background="@mipmap/scanicon" android:layout_width="40dp" android:layout_height="40dp" />
+
+
+        </LinearLayout>
+         <TableLayout android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+            <TableRow>
+                <Button android:textSize="@dimen/buttonSize" android:textColor="@color/black" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/cancel_button" android:background="@drawable/button_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel_button" />
+                <Button android:textSize="@dimen/buttonSize" android:textColor="@color/black" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/save_button" android:background="@drawable/button_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_button" />
+            </TableRow>
+        </TableLayout>
+        <TextView android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/imeiTx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="xxxxxx" />
+        <TextView android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/androidVersionTx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="11111" />
+        <TextView android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/projectVersionTx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="222222222222" />
+    </LinearLayout>
+</LinearLayout>
